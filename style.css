@@ -8,15 +8,18 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: #00bcd4; 
-    margin-bottom: 30px;
+}
+.head-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .leaderboard {
     max-width: 600px;
-    margin: 0 auto;
-    background-color: #00bcd4;
+    margin: 5% auto;
+    background-color: #008b9d;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -42,7 +45,7 @@ th, td {
 }
 
 th {
-    background-color: #5b53a2; 
+    background-color: #544c96; 
     color: #f1f1f1;
 }
 
@@ -56,4 +59,7 @@ th {
 
 .arrow-up {
     color: green;
+}
+.names{
+    font-weight: 450;
 }
